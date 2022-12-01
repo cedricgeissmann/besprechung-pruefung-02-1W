@@ -8,7 +8,7 @@ function left() {
     main.className = "left"
 }
 
-function top() {
+function up() {
     const main = document.querySelector("#main")
     main.className = "top"
 }
@@ -16,4 +16,9 @@ function top() {
 function bottom() {
     const main = document.querySelector("#main")
     main.className = "bottom"
+}
+
+function reset() {
+    const main = document.querySelector("#main")
+    main.className = ""
 }
