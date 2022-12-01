@@ -17,3 +17,9 @@ button.direction-btn {
 #main svg {
     background-color: aqua;
 }
+
+.right {
+    border-right-color: brown;
+    border-right-width: 20px;
+    border-right-style: solid;
+}
