@@ -7,6 +7,7 @@
     <title>Besprechung Prüfung 1W</title>
 
     <link rel="stylesheet" href="style.css">
+    <script defer src="script.js"></script>
 </head>
 <body>
     <h1>Besprechung Prüfung 02 1W</h1>
@@ -14,10 +15,11 @@
     <div id="main" class="right">
         <h2>Untertitel</h2>
         <div class="direction-container">
-            <button class="direction-btn">RIGHT</button>
-            <button class="direction-btn">LEFT</button>
-            <button class="direction-btn">TOP</button>
-            <button class="direction-btn">BOTTOM</button>
+            <button onclick="right()" class="direction-btn">RIGHT</button>
+            <button onclick="left()" class="direction-btn">LEFT</button>
+            <button onclick="up()" class="direction-btn">TOP</button>
+            <button onclick="bottom()" class="direction-btn">BOTTOM</button>
+            <button onclick="reset()">RESET</button>
         </div>
 
         <svg width="500" height="400">
