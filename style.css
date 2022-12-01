@@ -23,3 +23,21 @@ button.direction-btn {
     border-right-width: 20px;
     border-right-style: solid;
 }
+
+.left {
+    border-left-color: brown;
+    border-left-width: 20px;
+    border-left-style: solid;
+}
+
+.top {
+    border-top-color: brown;
+    border-top-width: 20px;
+    border-top-style: solid;
+}
+
+.bottom {
+    border-bottom-color: brown;
+    border-bottom-width: 20px;
+    border-bottom-style: solid;
+}
