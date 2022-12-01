@@ -9,3 +9,7 @@ button.direction-btn {
     min-height: 75px;
     border-radius: 50%;
 }
+
+#main {
+    text-align: center;
+}
